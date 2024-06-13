@@ -11,4 +11,39 @@ const mess10 = "Catching things and eating their insides";
 
 let randNum = Math.floor(Math.random() * 10) + 1;
 
-console.log(randNum);
+// console.log(randNum);
+
+switch (randNum) {
+    case 1:
+        console.log(mess1);
+        break;
+    case 2:
+        console.log(mess2);
+        break;
+    case 3:
+        console.log(mess3);
+        break;
+    case 4:
+        console.log(mess4);
+        break;
+    case 5:
+        console.log(mess5);
+        break;
+    case 6:
+        console.log(mess6);
+        break;
+    case 7:
+        console.log(mess7);
+        break;
+    case 8:
+        console.log(mess8);
+        break;
+    case 9:
+        console.log(mess9);
+        break;
+    case 10:
+        console.log(mess10);
+        break;
+    default:
+        console.log('error');
+}
